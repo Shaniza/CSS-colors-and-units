@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+caption{
+    padding: 20px;
+    font-size: 32px;
+    background-color: yellowgreen;
+}
+#container{
+    height: 70px;
+    width: 100%;
+    color: white;
+    background: linear-gradient(to left, rgba(23, 129, 11, 0.712), green, rgba(23, 129, 11, 0.712));
+}
+h1{
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 44px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #302402;
+    color: white;
+  }
+#red{
+    height: 50px;
+    width: 350px;
+    color: white;
+    text-align: center;
+    background-color:  hsl(0, 100%, 50%);
+}
+
+#red_100_saturation{
+    height: 50px;
+    width: 350px;
+    color: white;
+    text-align: center;
+    background-color: hsl(0, 0%, 0%);
+}
+#red_100_lightness{
+    height: 50px;
+    width: 350px;
+    color: white;
+    text-align: center;
+    background-color: hsl(0, 0%, 50%);
+}
+
+#with_alpha{
+    height: 70px;
+    width: 450px;
+    background-color: rgba(23, 129, 11, 0.5);
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+
+}
+#without_alpha{
+    height: 70px;
+    width: 450px;
+    background-color: rgba(23, 129, 11);
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+
+}
+#circle{
+    background-image: url("https://images.pexels.com/photos/314780/pexels-photo-314780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    margin: 10px;
+    color: white;
+    font-weight: bolder;
+}
